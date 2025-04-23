@@ -1,5 +1,5 @@
 
-# designing-a-serverless-web-backend-on-aws
+# designing-a serverless-web-backend on aws
 
 ## Introduction
 
