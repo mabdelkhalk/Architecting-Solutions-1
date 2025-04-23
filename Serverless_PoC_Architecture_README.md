@@ -1,9 +1,9 @@
 
-# Serverless Proof of Concept (PoC) Architecture
+# designing-a-serverless-web-backend-on-aws
 
 ## Introduction
 
-This project is a proof of concept (PoC) for a serverless environment using AWS services. The goal of this project is to handle requests using AWS services like **IAM**, **DynamoDB**, **SQS**, **Lambda**, **SNS**, and **API Gateway**.
+This project is designing a serverless-web-backend on aws environment using AWS services. The goal of this project is to handle requests using AWS services like **IAM**, **DynamoDB**, **SQS**, **Lambda**, **SNS**, and **API Gateway**.
 
 ### Services Used:
 - **IAM**: For managing permissions and access control.
@@ -38,23 +38,7 @@ This project is a proof of concept (PoC) for a serverless environment using AWS 
 ### 7. **API Gateway**:
 - API Gateway is set up to receive POST requests and pass them to Lambda for processing.
 
----
 
-## Usage:
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/serverless-poc-architecture.git
-   cd serverless-poc-architecture
-   ```
-
-2. **Deploy Resources**:
-   You can deploy resources using the AWS CLI scripts to set up IAM, DynamoDB, SQS, Lambda, SNS, and API Gateway.
-
-3. **Test API**:
-   You can send POST requests to the `/order` endpoint of the API Gateway.
-
----
 
 ## Project Structure:
 
@@ -74,13 +58,3 @@ This project is a proof of concept (PoC) for a serverless environment using AWS 
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Notes
-
-- This project is a proof of concept and can be customized to suit your needs.
-- For any questions or support, feel free to reach out via [email](mailto:you@example.com).
